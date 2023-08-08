@@ -19,4 +19,24 @@ Parameters:
 ##### Pandas [Documentation](https://pandas.pydata.org/docs/reference/api/pandas.set_option.html)
 ---
 
+### ii. Update the column labels of a DataFrame:
+#### Example 
+```python
+df.columns = ['new_label1', 'new_label2', 'new_label3']
+```
+
+Syntax: 
+```python
+dataframe.columns = [list of new column labels]
+```
+
+Parameters:
+- dataframe: The DataFrame object whose column labels you wish to update.
+- [list of new column labels]: A list containing the new column labels. The length of the list should match the number of columns in the dataframe.
+
+##### Pandas [Documentation](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html)
+---
+
+
+
 
